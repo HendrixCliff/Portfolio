@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import DevOps from "./components/Devops";
+import DevOps from "./components/DevOps";
 import Experience from "./components/Experience";
 import GithubStats from "./components/GithubStats";
 import Contact from "./components/Contact";
