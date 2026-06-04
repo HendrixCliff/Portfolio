@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center px-6"
+      className="min-h-screen flex items-center mt-[1.5em] justify-center px-6"
     >
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         <div>

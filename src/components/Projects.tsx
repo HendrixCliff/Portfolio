@@ -2,7 +2,7 @@ const projects = [
   {
     name: "MooreHotelAndSuites",
     description:
-      "Hotel booking and management system built with ASP.NET Core Clean Architecture.",
+      "Full-scale hotel management and booking platform built with ASP.NET Core Clean Architecture. Features JWT authentication, Redis caching, PostgreSQL, Docker containerization, monitoring with Prometheus & Grafana, centralized logging with Seq, and CI/CD automation.",
     technologies: [
       "ASP.NET Core",
       "PostgreSQL",
@@ -16,14 +16,52 @@ const projects = [
   },
 
   {
+    name: "PayVault",
+    description:
+      "FinTech savings and lending platform that enables users to save money, earn interest, and apply for loans. Integrated a Credit Score Service to evaluate loan eligibility and enforce lending rules. Built with secure authentication, PostgreSQL, and scalable ASP.NET Core architecture.",
+    technologies: [
+      "ASP.NET Core",
+      "PostgreSQL",
+      "Credit Score API",
+      "JWT Authentication",
+      "Entity Framework Core",
+      "REST APIs",
+    ],
+  },
+
+  {
     name: "E-Commerce API",
     description:
-      "Scalable e-commerce backend with authentication and cloud storage.",
+      "Scalable e-commerce backend supporting product management, user authentication, image uploads via Cloudinary, and email notifications through SMTP services.",
     technologies: [
       "ASP.NET Core",
       "PostgreSQL",
       "Cloudinary",
       "SMTP",
+    ],
+  },
+
+  {
+    name: "Product Expiry Tracker",
+    description:
+      "Web application that helps users monitor product expiration dates and receive alerts before products expire.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vercel",
+      "Node.js",
+      "Cron"
+    ],
+  },
+
+  {
+    name: "Inventory Summarizer",
+    description:
+      "Inventory management application that summarizes stock levels and provides insights into inventory performance.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
     ],
   },
 ];
