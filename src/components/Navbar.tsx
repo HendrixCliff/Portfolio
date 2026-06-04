@@ -27,7 +27,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="www.linkedin.com/in/godwin-igwegbe-181a63359"
+            href="https://linkedin.com/in/godwin-igwegbe-181a63359"
             target="_blank"
             rel="noreferrer"
           >
